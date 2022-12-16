@@ -1,0 +1,246 @@
+2022-12-16 12:38:29.228  INFO 35340 --- [main] c.c.t.t.TourismManagementApplication     : Starting TourismManagementApplication using Java 1.8.0_291 on LTIN237855 with PID 35340 (C:\microservicesproject\tourism-management\tourism-management\target\classes started by 791928 in C:\microservicesproject\tourism-management\tourism-management)
+2022-12-16 12:38:29.370  INFO 35340 --- [main] c.c.t.t.TourismManagementApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-16 12:38:32.125  INFO 35340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-16 12:38:32.700  INFO 35340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 532 ms. Found 2 JPA repository interfaces.
+2022-12-16 12:38:33.754  INFO 35340 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7af18b80-b034-30f6-9479-0005a61aa4f3
+2022-12-16 12:38:35.636  INFO 35340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-16 12:38:35.669  INFO 35340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-16 12:38:35.670  INFO 35340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-16 12:38:36.242  INFO 35340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-16 12:38:36.243  INFO 35340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6708 ms
+2022-12-16 12:38:36.314  INFO 35340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-16 12:38:37.109  INFO 35340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-16 12:38:37.144  INFO 35340 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-16 12:38:37.628  INFO 35340 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-16 12:38:37.883  INFO 35340 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-16 12:38:38.572  INFO 35340 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-16 12:38:39.021  INFO 35340 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-16 12:38:40.898  INFO 35340 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-16 12:38:40.921  INFO 35340 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16 12:38:42.540  WARN 35340 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-16 12:38:43.104  INFO 35340 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5dc1597f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11896af6, org.springframework.security.web.context.SecurityContextPersistenceFilter@28befd62, org.springframework.security.web.header.HeaderWriterFilter@ff12b53, org.springframework.security.web.authentication.logout.LogoutFilter@3a225534, com.cts.tourism.tourismmanagement.security.UserAuthenticationFilter@6b6e2c83, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8ad182c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a83cfbc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2fbb098f, org.springframework.security.web.session.SessionManagementFilter@9863ed5, org.springframework.security.web.access.ExceptionTranslationFilter@5fd5d6d1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4faaff61]
+2022-12-16 12:38:44.981  INFO 35340 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-12-16 12:38:45.880  WARN 35340 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-16 12:38:45.936  INFO 35340 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-12-16 12:38:46.191  INFO 35340 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-12-16 12:38:46.208  INFO 35340 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-16 12:38:46.314  INFO 35340 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-12-16 12:38:46.315  INFO 35340 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-12-16 12:38:46.315  INFO 35340 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-12-16 12:38:46.315  INFO 35340 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-12-16 12:38:46.315  INFO 35340 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-12-16 12:38:46.316  INFO 35340 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-12-16 12:38:46.316  INFO 35340 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-12-16 12:38:48.298  INFO 35340 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-12-16 12:38:48.305  INFO 35340 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-12-16 12:38:48.314  INFO 35340 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-16 12:38:48.329  INFO 35340 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1671174528324 with initial instances count: 0
+2022-12-16 12:38:48.334  INFO 35340 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TOURISM-MANAGEMENT with eureka with status UP
+2022-12-16 12:38:48.335  INFO 35340 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1671174528335, current=UP, previous=STARTING]
+2022-12-16 12:38:48.343  INFO 35340 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080: registering service...
+2022-12-16 12:38:48.457  INFO 35340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-16 12:38:48.461  INFO 35340 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2022-12-16 12:38:48.886  INFO 35340 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080 - registration status: 204
+2022-12-16 12:38:49.202  INFO 35340 --- [main] c.c.t.t.TourismManagementApplication     : Started TourismManagementApplication in 21.659 seconds (JVM running for 23.356)
+2022-12-16 12:39:18.343  INFO 35340 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-12-16 12:39:18.344  INFO 35340 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-12-16 12:39:18.345  INFO 35340 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-12-16 12:39:18.346  INFO 35340 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-12-16 12:39:18.346  INFO 35340 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-12-16 12:39:18.346  INFO 35340 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-12-16 12:39:18.346  INFO 35340 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-12-16 12:39:18.370  INFO 35340 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-12-16 12:43:46.334  INFO 35340 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-16 12:44:32.952  INFO 35340 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-16 12:44:32.954  INFO 35340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-16 12:44:33.019  INFO 35340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 65 ms
+2022-12-16 12:46:07.696  INFO 35340 --- [http-nio-8080-exec-5] c.c.t.t.controller.TourismController     : before adding branch
+2022-12-16 12:46:07.707  INFO 35340 --- [http-nio-8080-exec-5] c.c.t.t.service.TouristServiceImpl       : Branch saved
+2022-12-16 12:46:07.707  INFO 35340 --- [http-nio-8080-exec-5] c.c.t.t.controller.TourismController     : After adding branch
+2022-12-16 12:46:27.633  INFO 35340 --- [http-nio-8080-exec-3] c.c.t.t.controller.TourismController     : before adding branch
+2022-12-16 12:46:27.638  INFO 35340 --- [http-nio-8080-exec-3] c.c.t.t.service.TouristServiceImpl       : Branch saved
+2022-12-16 12:46:27.641  INFO 35340 --- [http-nio-8080-exec-3] c.c.t.t.controller.TourismController     : After adding branch
+2022-12-16 12:48:46.347  INFO 35340 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-16 12:53:46.358  INFO 35340 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-16 12:58:30.946  INFO 35340 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TOURISM-MANAGEMENT with eureka with status DOWN
+2022-12-16 12:58:30.947  INFO 35340 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1671175710947, current=DOWN, previous=UP]
+2022-12-16 12:58:30.948  INFO 35340 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080: registering service...
+2022-12-16 12:58:31.004  INFO 35340 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080 - registration status: 204
+2022-12-16 12:58:31.401  INFO 35340 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16 12:58:31.428  INFO 35340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-16 12:58:31.439  INFO 35340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-16 12:58:31.442  INFO 35340 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-12-16 12:58:34.458  INFO 35340 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-12-16 12:58:34.513  INFO 35340 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080 - deregister  status: 200
+2022-12-16 12:58:34.527  INFO 35340 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-12-16 12:59:03.998  INFO 43276 --- [main] c.c.t.t.TourismManagementApplication     : Starting TourismManagementApplication using Java 1.8.0_291 on LTIN237855 with PID 43276 (C:\microservicesproject\tourism-management\tourism-management\target\classes started by 791928 in C:\microservicesproject\tourism-management\tourism-management)
+2022-12-16 12:59:04.006  INFO 43276 --- [main] c.c.t.t.TourismManagementApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-16 12:59:06.461  INFO 43276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-16 12:59:06.971  INFO 43276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 478 ms. Found 2 JPA repository interfaces.
+2022-12-16 12:59:07.702  INFO 43276 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7af18b80-b034-30f6-9479-0005a61aa4f3
+2022-12-16 12:59:09.522  INFO 43276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-16 12:59:09.549  INFO 43276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-16 12:59:09.550  INFO 43276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-16 12:59:10.030  INFO 43276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-16 12:59:10.030  INFO 43276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5865 ms
+2022-12-16 12:59:10.103  INFO 43276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-16 12:59:10.802  INFO 43276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-16 12:59:10.836  INFO 43276 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-16 12:59:11.343  INFO 43276 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-16 12:59:11.598  INFO 43276 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-16 12:59:12.384  INFO 43276 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-16 12:59:13.186  INFO 43276 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-16 12:59:15.023  INFO 43276 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-16 12:59:15.045  INFO 43276 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16 12:59:16.780  WARN 43276 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-16 12:59:17.360  INFO 43276 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3a5b1af7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4932d580, org.springframework.security.web.context.SecurityContextPersistenceFilter@526f8cb0, org.springframework.security.web.header.HeaderWriterFilter@6e54bef6, org.springframework.security.web.authentication.logout.LogoutFilter@7097ead6, com.cts.tourism.tourismmanagement.security.UserAuthenticationFilter@7603cfc2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@530d40b4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f5f79d8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60256d1b, org.springframework.security.web.session.SessionManagementFilter@6b8f87dc, org.springframework.security.web.access.ExceptionTranslationFilter@57283fac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f7d8a7c]
+2022-12-16 12:59:19.287  INFO 43276 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-12-16 12:59:20.251  WARN 43276 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-16 12:59:20.310  INFO 43276 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-12-16 12:59:20.636  INFO 43276 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-12-16 12:59:20.662  INFO 43276 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-16 12:59:20.776  INFO 43276 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-12-16 12:59:20.777  INFO 43276 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-12-16 12:59:20.778  INFO 43276 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-12-16 12:59:20.778  INFO 43276 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-12-16 12:59:20.778  INFO 43276 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-12-16 12:59:20.779  INFO 43276 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-12-16 12:59:20.779  INFO 43276 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-12-16 12:59:22.519  INFO 43276 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-12-16 12:59:22.526  INFO 43276 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-12-16 12:59:22.533  INFO 43276 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-16 12:59:22.547  INFO 43276 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1671175762543 with initial instances count: 1
+2022-12-16 12:59:22.551  INFO 43276 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TOURISM-MANAGEMENT with eureka with status UP
+2022-12-16 12:59:22.553  INFO 43276 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1671175762553, current=UP, previous=STARTING]
+2022-12-16 12:59:22.558  INFO 43276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080: registering service...
+2022-12-16 12:59:22.663  INFO 43276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-16 12:59:22.664  INFO 43276 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2022-12-16 12:59:22.704  INFO 43276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080 - registration status: 204
+2022-12-16 12:59:23.307  INFO 43276 --- [main] c.c.t.t.TourismManagementApplication     : Started TourismManagementApplication in 21.292 seconds (JVM running for 22.88)
+2022-12-16 13:00:40.674  INFO 43276 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-16 13:00:40.675  INFO 43276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-16 13:00:40.677  INFO 43276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-12-16 13:00:41.014  INFO 43276 --- [http-nio-8080-exec-2] c.c.t.t.controller.TourismController     : before adding branch
+2022-12-16 13:00:41.265  INFO 43276 --- [http-nio-8080-exec-2] c.c.t.t.service.TouristServiceImpl       : Branch saved
+2022-12-16 13:00:41.265  INFO 43276 --- [http-nio-8080-exec-2] c.c.t.t.controller.TourismController     : After adding branch
+2022-12-16 13:04:20.796  INFO 43276 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-16 13:06:19.184  INFO 43276 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TOURISM-MANAGEMENT with eureka with status DOWN
+2022-12-16 13:06:19.185  INFO 43276 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1671176179185, current=DOWN, previous=UP]
+2022-12-16 13:06:19.185  INFO 43276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080: registering service...
+2022-12-16 13:06:19.217  INFO 43276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080 - registration status: 204
+2022-12-16 13:06:19.552  INFO 43276 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16 13:06:19.557  INFO 43276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-16 13:06:19.564  INFO 43276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-16 13:06:19.565  INFO 43276 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-12-16 13:06:22.583  INFO 43276 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-12-16 13:06:22.599  INFO 43276 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080 - deregister  status: 200
+2022-12-16 13:06:22.607  INFO 43276 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-12-16 13:08:15.541  INFO 47840 --- [main] c.c.t.t.TourismManagementApplication     : Starting TourismManagementApplication using Java 1.8.0_291 on LTIN237855 with PID 47840 (C:\microservicesproject\tourism-management\tourism-management\target\classes started by 791928 in C:\microservicesproject\tourism-management\tourism-management)
+2022-12-16 13:08:15.550  INFO 47840 --- [main] c.c.t.t.TourismManagementApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-16 13:08:18.305  INFO 47840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-16 13:08:18.877  INFO 47840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 534 ms. Found 2 JPA repository interfaces.
+2022-12-16 13:08:19.882  INFO 47840 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7af18b80-b034-30f6-9479-0005a61aa4f3
+2022-12-16 13:08:22.098  INFO 47840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-16 13:08:22.131  INFO 47840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-16 13:08:22.132  INFO 47840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-16 13:08:22.871  INFO 47840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-16 13:08:22.872  INFO 47840 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7155 ms
+2022-12-16 13:08:22.992  INFO 47840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-16 13:08:24.030  INFO 47840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-16 13:08:24.077  INFO 47840 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-16 13:08:24.857  INFO 47840 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-16 13:08:25.155  INFO 47840 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-16 13:08:25.973  INFO 47840 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-16 13:08:26.564  INFO 47840 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-16 13:08:29.333  INFO 47840 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-16 13:08:29.367  INFO 47840 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16 13:08:31.421  WARN 47840 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-16 13:08:32.198  INFO 47840 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e2f16bd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@594fcb22, org.springframework.security.web.context.SecurityContextPersistenceFilter@17635531, org.springframework.security.web.header.HeaderWriterFilter@32d46229, org.springframework.security.web.authentication.logout.LogoutFilter@7ead0b51, com.cts.tourism.tourismmanagement.security.UserAuthenticationFilter@1399ad68, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@396519b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e0e3048, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41c83af0, org.springframework.security.web.session.SessionManagementFilter@7f08c343, org.springframework.security.web.access.ExceptionTranslationFilter@46c19350, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@bddac1c]
+2022-12-16 13:08:35.637  INFO 47840 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-12-16 13:08:36.996  WARN 47840 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-16 13:08:37.180  INFO 47840 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-12-16 13:08:37.961  INFO 47840 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-12-16 13:08:37.987  INFO 47840 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-16 13:08:38.116  INFO 47840 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-12-16 13:08:38.117  INFO 47840 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-12-16 13:08:38.118  INFO 47840 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-12-16 13:08:38.118  INFO 47840 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-12-16 13:08:38.119  INFO 47840 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-12-16 13:08:38.119  INFO 47840 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-12-16 13:08:38.121  INFO 47840 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-12-16 13:08:41.017  INFO 47840 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-12-16 13:08:41.025  INFO 47840 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-12-16 13:08:41.034  INFO 47840 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-16 13:08:41.052  INFO 47840 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1671176321045 with initial instances count: 1
+2022-12-16 13:08:41.056  INFO 47840 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TOURISM-MANAGEMENT with eureka with status UP
+2022-12-16 13:08:41.058  INFO 47840 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1671176321058, current=UP, previous=STARTING]
+2022-12-16 13:08:41.064  INFO 47840 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080: registering service...
+2022-12-16 13:08:41.172  INFO 47840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-16 13:08:41.174  INFO 47840 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2022-12-16 13:08:41.214  INFO 47840 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080 - registration status: 204
+2022-12-16 13:08:41.920  INFO 47840 --- [main] c.c.t.t.TourismManagementApplication     : Started TourismManagementApplication in 28.328 seconds (JVM running for 30.252)
+2022-12-16 13:09:26.883  INFO 47840 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-16 13:09:26.883  INFO 47840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-16 13:09:26.885  INFO 47840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-16 13:09:32.380  INFO 47840 --- [http-nio-8080-exec-1] c.c.t.t.controller.TourismController     : before adding branch
+2022-12-16 13:09:32.618  INFO 47840 --- [http-nio-8080-exec-1] c.c.t.t.service.TouristServiceImpl       : Branch saved
+2022-12-16 13:09:32.618  INFO 47840 --- [http-nio-8080-exec-1] c.c.t.t.controller.TourismController     : After adding branch
+2022-12-16 13:12:55.382  INFO 47840 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TOURISM-MANAGEMENT with eureka with status DOWN
+2022-12-16 13:12:55.383  INFO 47840 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1671176575383, current=DOWN, previous=UP]
+2022-12-16 13:12:55.383  INFO 47840 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080: registering service...
+2022-12-16 13:12:55.405  INFO 47840 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080 - registration status: 204
+2022-12-16 13:12:55.703  INFO 47840 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16 13:12:55.707  INFO 47840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-16 13:12:55.714  INFO 47840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-16 13:12:55.714  INFO 47840 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-12-16 13:13:18.327  INFO 49136 --- [main] c.c.t.t.TourismManagementApplication     : Starting TourismManagementApplication using Java 1.8.0_291 on LTIN237855 with PID 49136 (C:\microservicesproject\tourism-management\tourism-management\target\classes started by 791928 in C:\microservicesproject\tourism-management\tourism-management)
+2022-12-16 13:13:18.337  INFO 49136 --- [main] c.c.t.t.TourismManagementApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-16 13:13:21.050  INFO 49136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-16 13:13:21.901  INFO 49136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 811 ms. Found 2 JPA repository interfaces.
+2022-12-16 13:13:22.728  INFO 49136 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7af18b80-b034-30f6-9479-0005a61aa4f3
+2022-12-16 13:13:24.597  INFO 49136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-16 13:13:24.631  INFO 49136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-16 13:13:24.632  INFO 49136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-16 13:13:25.294  INFO 49136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-16 13:13:25.295  INFO 49136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6737 ms
+2022-12-16 13:13:25.392  INFO 49136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-16 13:13:26.380  INFO 49136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-16 13:13:26.421  INFO 49136 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-16 13:13:27.117  INFO 49136 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-16 13:13:27.320  INFO 49136 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-16 13:13:28.054  INFO 49136 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-16 13:13:28.711  INFO 49136 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-16 13:13:31.580  INFO 49136 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-16 13:13:31.616  INFO 49136 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16 13:13:33.449  WARN 49136 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-16 13:13:34.048  INFO 49136 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6ee07d7f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@256c6f7a, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c6fe482, org.springframework.security.web.header.HeaderWriterFilter@2cf669f2, org.springframework.security.web.authentication.logout.LogoutFilter@1892865f, com.cts.tourism.tourismmanagement.security.UserAuthenticationFilter@7a6b214c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fd05b15, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@734a2c17, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@81cd90e, org.springframework.security.web.session.SessionManagementFilter@3fe11091, org.springframework.security.web.access.ExceptionTranslationFilter@3bc33ad9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53a3fc8b]
+2022-12-16 13:13:36.647  INFO 49136 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-12-16 13:13:37.646  WARN 49136 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-16 13:13:37.712  INFO 49136 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-12-16 13:13:38.106  INFO 49136 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-12-16 13:13:38.131  INFO 49136 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-16 13:13:38.245  INFO 49136 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-12-16 13:13:38.245  INFO 49136 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-12-16 13:13:38.246  INFO 49136 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-12-16 13:13:38.246  INFO 49136 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-12-16 13:13:38.247  INFO 49136 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-12-16 13:13:38.247  INFO 49136 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-12-16 13:13:38.247  INFO 49136 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-12-16 13:13:40.209  INFO 49136 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-12-16 13:13:40.221  INFO 49136 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-12-16 13:13:40.229  INFO 49136 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-16 13:13:40.253  INFO 49136 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1671176620246 with initial instances count: 2
+2022-12-16 13:13:40.257  INFO 49136 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TOURISM-MANAGEMENT with eureka with status UP
+2022-12-16 13:13:40.258  INFO 49136 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1671176620258, current=UP, previous=STARTING]
+2022-12-16 13:13:40.264  INFO 49136 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080: registering service...
+2022-12-16 13:13:40.358  INFO 49136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-16 13:13:40.361  INFO 49136 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2022-12-16 13:13:40.463  INFO 49136 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TOURISM-MANAGEMENT/LTIN237855.cts.com:tourism-management:8080 - registration status: 204
+2022-12-16 13:13:40.918  INFO 49136 --- [main] c.c.t.t.TourismManagementApplication     : Started TourismManagementApplication in 24.856 seconds (JVM running for 26.92)
+2022-12-16 13:14:25.003  INFO 49136 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-16 13:14:25.004  INFO 49136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-16 13:14:25.007  INFO 49136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-12-16 13:14:27.316  INFO 49136 --- [http-nio-8080-exec-1] c.c.t.t.controller.TourismController     : before adding branch
+2022-12-16 13:14:27.781  INFO 49136 --- [http-nio-8080-exec-1] c.c.t.t.service.TouristServiceImpl       : Branch saved
+2022-12-16 13:14:27.781  INFO 49136 --- [http-nio-8080-exec-1] c.c.t.t.controller.TourismController     : After adding branch
+2022-12-16 13:18:38.256  INFO 49136 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
